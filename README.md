@@ -1,8 +1,6 @@
-# MoonDAO Entity
-
-find contract at /src/moonDao/EntityERC5642.sol
-
 ## Installation
+
+`git clone --recurse-submodules <repo-URL>`
 
 ```sh
 forge install
@@ -11,3 +9,4 @@ forge install
 ### Running tests locally
 
 1. `forge test -vv`
+2. `forge test --match-path test/EntityERC5643Test.t.sol -vv`
